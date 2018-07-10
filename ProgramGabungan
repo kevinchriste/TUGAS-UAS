@@ -7,18 +7,18 @@ using namespace std;
 
 struct mahasiswa
 {
- char nama [30]; //deklarasi tipe data char menggunakan struct
+ char nama [30]; 
 }; 
 
-mahasiswa ueu; //dengan mengalamatkannnya dengan variabel ueu
+mahasiswa ueu;//variabel ueu
 
-char terserah[15], terserah2[15], terserah3[15]; //deklarasi tipe data char biasa tanpa struct
+char terserah[15], terserah2[15], terserah3[15]; //deklarasi tipe data char biasa
 
 
 struct mahasiswam
 {
 	char nama[20];
-	int nim;
+	long long int nim;
 	int umur;
 	float ipk;
 } mhs;
